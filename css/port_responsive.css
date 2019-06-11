@@ -1,0 +1,113 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  display:inline-block;
+  font-family: 'zocial', sans-serif;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+@media screen and (min-width:400px) {
+
+  .mg, .ag{
+    margin-right: 4%;
+  }
+
+@media screen and (min-width:500px) {
+
+  .mg, .ag{
+    margin-right: 15%;
+  }
+
+@media screen and (min-width:622px) {
+
+  nav{
+    float:left;
+    position:relative;
+    transform:translate(0,0);
+    height:100%;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  .rest {
+    width:auto;
+    flex-grow: 1;
+    }
+
+  .poster {
+    width:60vw;
+    max-width:100%;
+  }
+
+}
+
+@media screen and (min-width:800px) {
+
+  body {
+    width:100%;
+  }
+
+  .upper {
+    margin-left: 200px;
+    width:70vw;
+  }
+
+  .hamburger{
+    display:none;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+  .poster {
+    width:76vw;
+    max-width:100%;
+  }
+  .upper {
+    width:77vw;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  body {
+    max-width: 1250px;
+  }
+  .font3 {
+    font-size: 30px;
+  }
+  .font4 {
+    font-size: 20px;
+  }
+
+  .flexo {
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  .ico1, .ico2 {
+    padding: 30px;
+  }
+
+}
+
+@media screen and (min-width: 1180px) {
+
+  .best {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .icon {
+    padding:5px;
+  }
+}

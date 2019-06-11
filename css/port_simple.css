@@ -1,0 +1,150 @@
+@import url(http://weloveiconfonts.com/api/?family=typicons);
+
+/* typicons */
+[class*="typicons-"]:before {
+  display: inline-block;
+  font-family: 'Typicons', sans-serif;
+  font-size: 120px;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+
+
+body, html {
+  width:100%;
+  height:100%;
+  margin:0;
+}
+
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upper {
+
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.logo {
+  float:left;
+  width:70px;
+  height:70px;
+  padding: 1em;
+
+}
+.line1 {
+
+  height:1px;
+  width: 100%;
+  float:right;
+}
+
+.title {
+  padding-right: 5px;
+}
+
+h1 {
+  text-align: right;
+  font-family: 'Poiret One';
+  font-size: 25px;
+  margin-bottom: -5px;
+  text-shadow: 3px 3px 3px #aaa;
+}
+
+h2 {
+  text-align:right;
+  font-family: 'Cinzel';
+  font-size: 16px;
+  margin-top: 15px;
+  margin-right: 0;
+}
+
+
+
+
+nav {
+  width:200px;
+  height:200vh;
+  position:absolute;
+  transform: translate(-300px,0);
+  transform: transform 0.3 ease;
+
+}
+
+nav.open {
+  transform: translate(0,0);
+
+}
+
+
+
+.poster {
+  margin-top: 10px;
+  max-width:100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  margin-bottom: 80px;
+
+}
+
+.box {
+  width:100%;
+}
+
+.icon {
+  display:flex;
+  flex-wrap:wrap;
+  width:image width px;
+  font-size: 90%;
+  text-align:center;
+  padding:1em;
+
+}
+
+
+
+.font3 {
+  font-family: 'Josefin Slab';
+  font-size: 25px;
+}
+
+.font4 {
+  font-family: 'Josefin Slab';
+  font-size: 19px;
+  margin-top: -10px;
+
+}
+
+.top-projects {
+  border:solid;
+}
+
+.box {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.font_a {
+  font-family: Jura;
+  font-size: 20px;
+}
+
+
+.foot {
+  margin-top: 0;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social {
+  float: left;
+  padding:10px;
+}
+
+.font6 {
+  font-family: Jura;
+}
